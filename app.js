@@ -1,0 +1,10 @@
+const LinkedList = require('./LinkedList')
+
+const ll = LinkedList.fromValues(10, 20, 30, 40, 50, 60, 70)
+ll.print()
+ll.removeAtIndex(2)
+ll.print()
+ll.removeAtIndex(5)
+ll.print()
+ll.removeAtIndex(3)
+ll.print()
